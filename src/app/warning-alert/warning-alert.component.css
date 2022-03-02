@@ -1,0 +1,9 @@
+.blinking_alert {
+    animation: blink_it 2s ease-in-out infinite;
+  }
+
+@keyframes blink_it {
+    100% {
+      opacity: 0.3;
+    }
+  }
